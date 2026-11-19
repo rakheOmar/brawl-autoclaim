@@ -1,0 +1,15 @@
+{
+  "name": "brawl-autoclaim",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "status": "bun src/index.ts status",
+    "claim": "bun src/index.ts claim"
+  },
+  "devDependencies": {
+    "@types/bun": "1.3.11",
+    "typescript": "5.9.3"
+  }
+}
